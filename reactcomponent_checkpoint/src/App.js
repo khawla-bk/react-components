@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
-import logo from "./logo.svg";
+
 import "./App.css";
 import FullName from "./component/profile/fullname";
 import Adress from "./component/profile/address";
 import Photo from "./component/profile/profilephoto";
+import { Button } from "react-bootstrap";
 function App() {
   return (
     <div className="portfolio">
@@ -13,6 +12,7 @@ function App() {
         <FullName />
         <Adress />
       </div>
+      <Button variant="primary">Primary</Button>{" "}
     </div>
   );
 }
