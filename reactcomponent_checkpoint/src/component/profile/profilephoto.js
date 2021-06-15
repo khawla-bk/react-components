@@ -1,8 +1,9 @@
 import React from "react";
+import Image from "./image.jpg";
 function Photo() {
   return (
     <>
-      <img src="/image.jpg" alt="Sherlock" />
+      <img src={Image} alt="Sherlock's pic" />
     </>
   );
 }
