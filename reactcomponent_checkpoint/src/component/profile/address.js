@@ -1,8 +1,8 @@
 import React from "react";
-function Adress() {
-  let Adress = "221b Baker St, London NW1 6XE, United Kingdom";
+function Address() {
+  let Address = "221b Baker St, London NW1 6XE, United Kingdom";
 
-  return <p>{Adress}</p>;
+  return <p>{Address}</p>;
 }
 
-export default Adress;
+export default Address;
